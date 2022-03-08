@@ -3,3 +3,5 @@
 *.ipynb*
 *legacy*
 *.pkl
+runs
+checkpoints
