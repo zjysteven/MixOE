@@ -63,21 +63,13 @@ python -m pip install -r requirements.txt
 ```
 
 ### Dataset
-Please see detailed instructions [here](DATA.md).
-
-### Models
-We use pre-trained models from [robust-transfer](https://github.com/microsoft/robust-models-transfer) repo. `download_pretrained_models.sh` is a sample download script. 
+Please see detailed instructions [here](/data/README.md).
 
 ## Reproducing experiments
-All experiments can be reproduced by running `main.py`. We provide a sample script `main.sh`. Remember to change the directory of ImageNet to your own version.
+We provide sample scripts `train.sh` and `eval.sh` in `scripts/` folder showcasing how to train/evaluate our method and other considered methods.
 
 ## Reference
 If you find our work/code helpful, please consider citing our work.
 ```
-@article{zhang2022privacy,
-  title={Privacy Leakage of Adversarial Training Models in Federated Learning Systems},
-  author={Zhang, Jingyang and Chen, Yiran and Li, Hai},
-  journal={arXiv preprint arXiv:2202.10546},
-  year={2022}
-}
+Coming soon!
 ```
