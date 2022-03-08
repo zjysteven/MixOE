@@ -1,4 +1,4 @@
-# Towards OOD detection in fine-grained envrionments
+# Towards OOD detection in fine-grained environments
 
 This repository contains the code necessary to replicate the results of our paper:
 
