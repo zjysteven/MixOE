@@ -1,6 +1,6 @@
 # Adapted from https://github.com/hendrycks/outlier-exposure/blob/master/utils/display_results.py
 import numpy as np
-import sklearn.metrics as sk
+#import sklearn.metrics as sk
 
 recall_level_default = 0.95
 
