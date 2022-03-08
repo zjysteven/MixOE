@@ -1,4 +1,4 @@
-# Exploiting Adversarial Training models to compromise privacy
+# Towards OOD detection in fine-grained envrionments
 
 This repository contains the code necessary to replicate the results of our paper:
 
@@ -17,14 +17,9 @@ Paper (arxiv preprint): Coming soon!
 
 <p align="center">
     <img src='/figures/overview.png'>
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">
-    Left: A comparison of OOD detection in coarse- and fine-grained environments. Intuitively, fine-grained detection is much more challenging. Intuitively, fine-grained settings are more challenging. Right: A *conceptual* illustration of MixOE. A Standard model with no OOD considerations tends to be over-confident on OOD samples. OE is able to calibrate the prediction confidence on coarse-grained OOD, but the outputs on fine-grained OOD are uncontrolled (marked by ``?''). MixOE aims for a smooth decay of the confidence as the inputs transition from ID to OOD, and thus enables detection of both coarse/fine-grained OOD.
-    </div>
 </p>
+<center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Left: A comparison of OOD detection in coarse- and fine-grained environments. Intuitively, fine-grained detection is much more challenging. Intuitively, fine-grained settings are more challenging. Right: A *conceptual* illustration of MixOE. A Standard model with no OOD considerations tends to be over-confident on OOD samples. OE is able to calibrate the prediction confidence on coarse-grained OOD, but the outputs on fine-grained OOD are uncontrolled (marked by ``?''). MixOE aims for a smooth decay of the confidence as the inputs transition from ID to OOD, and thus enables detection of both coarse/fine-grained OOD.</center>
+
 
 The capability of detecting Out-of-distribution (OOD) samples that do not belong to one of the known classes of DNNs during inference time is crucial for reliable operations in the wild.
 Existing works typically use *coarse-grained* benchmarks (e.g., CIFAR-10 v.s. SVHN/LSUN) to perform evaluation, which fail to approximate many real-world scenarios which inherently have *fine-grained* attributes (e.g., bird species recognition, medical image classification).
