@@ -1,0 +1,5 @@
+*__pycache__
+*useless
+*.ipynb*
+*legacy*
+*.pkl
