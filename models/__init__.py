@@ -1,0 +1,1 @@
+from .resnet import resnet18, resnet34, resnet50, wide_resnet50_2
