@@ -6,7 +6,7 @@ This repository contains the code necessary to replicate the results of our pape
 
 [Jingyang Zhang](https://zjysteven.github.io/), Nathan Inkawhich, Randolph Linderman, Yiran Chen, Hai Li @ [Duke CEI Lab](https://cei.pratt.duke.edu/)
 
-Paper (arxiv preprint): Coming soon!
+Paper (arxiv preprint): https://arxiv.org/abs/2106.03917
 
 
 ## Overview
