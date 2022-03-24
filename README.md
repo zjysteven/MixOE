@@ -17,7 +17,7 @@ Paper (arxiv preprint): https://arxiv.org/abs/2106.03917
     <img src='/figures/overview.png' width='870'>
 </p>
 <p>
-    <em>Left: A comparison of OOD detection in coarse- and fine-grained environments. Intuitively, fine-grained detection is much more challenging. Intuitively, fine-grained settings are more challenging. Right: A *conceptual* illustration of MixOE. A Standard model with no OOD considerations tends to be over-confident on OOD samples. OE is able to calibrate the prediction confidence on coarse-grained OOD, but the outputs on fine-grained OOD are uncontrolled (marked by ``?''). MixOE aims for a smooth decay of the confidence as the inputs transition from ID to OOD, and thus enables detection of both coarse/fine-grained OOD.</em>
+    <em>Left: A comparison of OOD detection in coarse- and fine-grained environments. Intuitively, fine-grained detection is much more challenging. Right: A *conceptual* illustration of MixOE. A Standard model with no OOD considerations tends to be over-confident on OOD samples. OE is able to calibrate the prediction confidence on coarse-grained OOD, but the outputs on fine-grained OOD are uncontrolled (marked by ``?''). MixOE aims for a smooth decay of the confidence as the inputs transition from ID to OOD, and thus enables detection of both coarse/fine-grained OOD.</em>
 </p>
 
 
