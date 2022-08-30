@@ -8,6 +8,7 @@ This repository contains the code necessary to replicate the results of our pape
 
 Paper (arxiv preprint): https://arxiv.org/abs/2106.03917
 
+This work has been accepted to WACV'23!!
 
 ## Overview
 
