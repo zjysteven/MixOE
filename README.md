@@ -67,7 +67,7 @@ python -m pip install -r requirements.txt
 Please see detailed instructions [here](/data/README.md).
 
 ## Reproducing experiments
-We provide sample scripts `train.sh` and `eval.sh` in `scripts/` folder showcasing how to train/evaluate our method and other considered methods.
+We provide sample scripts `train.sh` and `eval.sh` in `scripts/` folder showcasing how to train/evaluate our method and other considered methods. Note that all OE-based methods (including MixOE) fine-tune the trained baseline model, so to run OE/MixOE you first need to do standard training with `train_baseline.py`. For everyone's convenience, we have uploaded the trained baseline weights [here](https://drive.google.com/drive/folders/1XdGWCgYR1lBiJZIuhlO0e3VHisJ8MDlH?usp=sharing).
 
 ## Reference
 If you find our work/code helpful, please consider citing our work.
