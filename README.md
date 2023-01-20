@@ -1,14 +1,12 @@
 # Towards OOD detection in fine-grained environments
 
-This repository contains the code necessary to replicate the results of our paper:
+This repository contains the code necessary to replicate the results of our WACV'23 paper:
 
 ***Mixture Outlier Exposure: Towards Out-of-Distribution Detection in Fine-grained Environments***
 
 [Jingyang Zhang](https://zjysteven.github.io/), Nathan Inkawhich, Randolph Linderman, Yiran Chen, Hai Li @ [Duke CEI Lab](https://cei.pratt.duke.edu/)
 
-Paper (arxiv preprint): https://arxiv.org/abs/2106.03917
-
-This work has been accepted to WACV'23!!
+Check out our paper [here](https://openaccess.thecvf.com/content/WACV2023/html/Zhang_Mixture_Outlier_Exposure_Towards_Out-of-Distribution_Detection_in_Fine-Grained_Environments_WACV_2023_paper.html)!!!
 
 ## Overview
 
@@ -72,5 +70,12 @@ We provide sample scripts `train.sh` and `eval.sh` in `scripts/` folder showcasi
 ## Reference
 If you find our work/code helpful, please consider citing our work.
 ```
-Coming soon!
+@InProceedings{Zhang_2023_WACV,
+    author    = {Zhang, Jingyang and Inkawhich, Nathan and Linderman, Randolph and Chen, Yiran and Li, Hai},
+    title     = {Mixture Outlier Exposure: Towards Out-of-Distribution Detection in Fine-Grained Environments},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {5531-5540}
+}
 ```
