@@ -21,7 +21,8 @@ from torchvision.models import resnet50
 
 from utils import (
     silence_PIL_warnings, FinegrainedDataset, 
-    print_measures_with_std, print_measures
+    print_measures_with_std, print_measures,
+    SPLIT_NUM_CLASSES
 )
 import utils.calculate_log as callog
 
